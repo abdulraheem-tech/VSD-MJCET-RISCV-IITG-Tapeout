@@ -371,7 +371,7 @@ diff -s rtl_reads.txt gls_reads.txt
 
 ***
 
-# errors
+## Step 18: errors
 
 The error shows that `VexRiscv` module is not being found because you didn't include `$VEX_FILE` in your `iverilog` command. Looking at your command, the line breaks make it appear you may have accidentally omitted it.[1]
 
