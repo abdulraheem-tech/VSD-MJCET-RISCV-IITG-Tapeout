@@ -83,6 +83,11 @@ dc_shell -f ../synth.tcl
 <img width="1240" height="1014" alt="image" src="https://github.com/user-attachments/assets/25112901-2f8a-434a-9f45-b355c70b3385" />
 
 <img width="1279" height="1009" alt="image" src="https://github.com/user-attachments/assets/23e1f25f-27a6-4083-801d-520fb8a6f563" />
+```
+gui_show
+```
+<img width="415" height="668" alt="image" src="https://github.com/user-attachments/assets/b052615d-2a5a-4f8a-8afa-f89c4f660324" />
+<img width="611" height="671" alt="image" src="https://github.com/user-attachments/assets/2e81a207-93e5-459e-a61d-7a30e5076d53" />
 
 
 This should update the caravel_snthesis.v file in [./synthesis/output](./synthesis/output) folder
