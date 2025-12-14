@@ -911,6 +911,35 @@ then run the following commands
 
 ## Synopsys Solvnet References
 
-<img width="1867" height="580" alt="image" src="https://github.com/user-attachments/assets/b03b49c3-aea0-4f88-9236-82fcbfdf60ac" />
+You are here: Design Compiler Documents > Design Compiler User Guide, version T-2022.03-SP3 > Using Topographical Technology > Performing an Incremental Compile
+Performing an Incremental Compile
+You can perform a second-pass, incremental compile by using the -incremental option with the compile_ultra command. This enables topographical-based optimization for post-topographical-based synthesis flows such as retiming, design-for-test (DFT), DFT MAX, and minor netlist edits. The primary focus in Design Compiler topographical mode is to maintain QoR correlation; therefore, only limited changes to the netlist can be made.
 
-- To perform the synthesis in topological method we need to use `compile_ultra -incremental` instead of `compile` in tcl file, this do the synthesis in topological method.
+Use the incremental compile strategy to meet the following goals:
+
+Improve design QoR
+
+Fix the netlist after manual netlist edits or constraint changes
+
+Fix the netlist after various synthesis steps have been performed on the compiled design, for example, after insert_dft or register retiming
+
+Control design rule fixing by using the -no_design_rule or -only_design_rule option in combination with the -incremental option
+
+The incremental compile also supports adaptive retiming with the compile_ultra -incremental -retime command.
+
+Running the compile_ultra -incremental command on a topographical netlist results in placement-based optimization only. This compile should not be thought of as an incremental mapping.
+
+Note:
+When you use the insert_buffer command and remove_buffer command described in Editing Designs, the report_timing command does not report placement-based timing for the edited cells. To update timing, run the compile_ultra -incremental command.
+
+When using the -incremental option, keep the following in mind:
+
+Marking library cells with the dont_use attribute does not work for an incremental flow when it is applied to a topographical netlist. Make sure to apply any set_dont_use attributes before the first pass of a topographical-based synthesis.
+
+If you intend to use boundary optimization and scan insertion, apply them to the first pass of a topographical-based synthesis.
+
+Avoid significant constraint changes in the incremental pass.
+
+Note:
+Physical constraint changes are not supported.
+
