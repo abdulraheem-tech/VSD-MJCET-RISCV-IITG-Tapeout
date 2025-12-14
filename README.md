@@ -19,4 +19,4 @@ Results  got with normal synthesis but without topographical-based synthesis
 Identified with soultion with compile_ultra -incremental The incremental compile also supports adaptive retiming with the compile_ultra -incremental -retime command.
 
 Running the compile_ultra -incremental command on a topographical netlist results in placement-based optimization only. This compile should not be thought of as an incremental mapping. 
-Finally the soultion for GLS with adding all the rtl files in gl
+Finally the soultion for GLS with adding all the rtl files in gl folder
