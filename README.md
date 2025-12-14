@@ -1,6 +1,7 @@
 # 11-12-2025. 
 # Objective:
 RISC V Tape Out Program Thanks for VSD Kunal Gosh, Sameer bhai and IIT Gandhinagar started 11 am with 
+<img width="1059" height="606" alt="image" src="https://github.com/user-attachments/assets/aa6c5c97-e6f8-41f7-b257-df03b6ab5dfb" />
 
 # 12-12-2025. 
 # Objective:
