@@ -396,6 +396,7 @@ After synthesis report files will be generated in the report directory such as a
 
 - As we remvoed dummy_por completely so we don't need to include it again, instead have to declare the new external `resetn` in the `hkspi_tb.v`
 - I have used the following Makefile
+
 ```
 # SPDX-FileCopyrightText: 2020 Efabless Corporation
 #
@@ -501,7 +502,7 @@ clean:
 	 rm -rf csrc simv.daidir DVEfiles ucli.key *.vpd urgReport coverage.vdb AN.DB
 
 .PHONY: clean hex vcd fsdb all debug coverage check-env# SPDX-FileCopyrightText: 2020 Efabless Corporation
-
+```
 
 The following commands
 - make clean
