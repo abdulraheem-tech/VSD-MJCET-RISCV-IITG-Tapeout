@@ -1,5 +1,5 @@
 
-## 📝 **COMPLETE MODIFICATION PLAN**
+## 📝 **Solution for the External Reset**
 
 ## Step 1: Made the Dummy_por module commented 
 <img width="417" height="232" alt="image" src="https://github.com/user-attachments/assets/507fa0e4-e3dc-4f95-9017-78591453ccdd" />
