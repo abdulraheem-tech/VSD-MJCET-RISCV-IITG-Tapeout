@@ -1,0 +1,80 @@
+Warning: Design 'vsdcaravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : area
+Design : vsdcaravel
+Version: T-2022.03-SP5
+Date   : Tue Dec 16 16:30:33 2025
+****************************************
+
+Information: Changed wire load model for 'delay_stage_0' from '4000' to 'ForQA'. (OPT-170)
+Information: Changed wire load model for 'delay_stage_1' from '4000' to 'ForQA'. (OPT-170)
+Information: Changed wire load model for 'delay_stage_2' from '4000' to 'ForQA'. (OPT-170)
+Information: Changed wire load model for 'delay_stage_3' from '4000' to 'ForQA'. (OPT-170)
+Information: Changed wire load model for 'delay_stage_4' from '4000' to 'ForQA'. (OPT-170)
+Information: Changed wire load model for 'delay_stage_6' from '4000' to 'ForQA'. (OPT-170)
+Information: Changed wire load model for 'delay_stage_7' from '4000' to 'ForQA'. (OPT-170)
+Information: Changed wire load model for 'delay_stage_8' from '4000' to 'ForQA'. (OPT-170)
+Information: Changed wire load model for 'delay_stage_9' from '4000' to 'ForQA'. (OPT-170)
+Information: Changed wire load model for 'delay_stage_10' from '4000' to 'ForQA'. (OPT-170)
+Information: Updating design information... (UID-85)
+Information: Timing loop detected. (OPT-150)
+	chip_core/housekeeping/U3468/I chip_core/housekeeping/U3468/Z chip_core/housekeeping/U3662/I chip_core/housekeeping/U3662/Z chip_core/housekeeping/U3651/I chip_core/housekeeping/U3651/Z chip_core/housekeeping/U3610/I chip_core/housekeeping/U3610/Z chip_core/housekeeping/hkspi_disable_reg/CP chip_core/housekeeping/hkspi_disable_reg/Q chip_core/housekeeping/U3575/A1 chip_core/housekeeping/U3575/ZN chip_core/housekeeping/U3574/I chip_core/housekeeping/U3574/ZN chip_core/housekeeping/U2993/A2 chip_core/housekeeping/U2993/ZN chip_core/housekeeping/U2992/A1 chip_core/housekeeping/U2992/ZN chip_core/housekeeping/U2991/A chip_core/housekeeping/U2991/ZN 
+Information: Timing loop detected. (OPT-150)
+	chip_core/housekeeping/U3665/I chip_core/housekeeping/U3665/Z chip_core/housekeeping/U3641/I chip_core/housekeeping/U3641/Z chip_core/housekeeping/U3640/I chip_core/housekeeping/U3640/Z chip_core/housekeeping/U3656/I chip_core/housekeeping/U3656/Z chip_core/housekeeping/gpio_configure_reg[3][3]/CP chip_core/housekeeping/gpio_configure_reg[3][3]/Q chip_core/housekeeping/U3575/A2 chip_core/housekeeping/U3575/ZN chip_core/housekeeping/U3574/I chip_core/housekeeping/U3574/ZN chip_core/housekeeping/U2993/A2 chip_core/housekeeping/U2993/ZN chip_core/housekeeping/U2992/A1 chip_core/housekeeping/U2992/ZN chip_core/housekeeping/U2991/A chip_core/housekeeping/U2991/ZN chip_core/housekeeping/U3521/I chip_core/housekeeping/U3521/Z 
+Warning: Disabling timing arc between pins 'CP' and 'Q' on cell 'chip_core/housekeeping/hkspi_disable_reg'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'CP' and 'Q' on cell 'chip_core/housekeeping/gpio_configure_reg[3][3]'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'CP' and 'Q' on cell 'chip_core/housekeeping/wbbd_busy_reg'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'CP' and 'QN' on cell 'chip_core/housekeeping/wbbd_sck_reg'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'CP' and 'Q' on cell 'chip_core/pll/pll_control/tval_reg[6]'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'CP' and 'Q' on cell 'chip_core/pll/pll_control/tval_reg[3]'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'CP' and 'Q' on cell 'chip_core/pll/pll_control/tval_reg[4]'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'CP' and 'Q' on cell 'chip_core/pll/pll_control/tval_reg[5]'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'CP' and 'Q' on cell 'chip_core/pll/pll_control/tval_reg[2]'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'I' and 'ZN' on cell 'chip_core/pll/ringosc/dstage[6].id/delayenb1'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'I' and 'ZN' on cell 'chip_core/pll/ringosc/dstage[6].id/delayen1'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'I' and 'ZN' on cell 'chip_core/pll/ringosc/dstage[6].id/delayenb0'
+         to break a timing loop. (OPT-314)
+Information: Input delay ('fall') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('fall') on clock port 'hk_serial_clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'hk_serial_clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('fall') on clock port 'hk_serial_load' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'hk_serial_load' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('fall') on clock port 'hkspi_clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'hkspi_clk' will be added to the clock's propagated skew. (TIM-112)
+Library(s) Used:
+
+    tsl18fs120_scl_ff (File: /home/Synopsys/pdk/SCL_PDK_3/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/4M1IL/liberty/lib_flow_ff/tsl18fs120_scl_ff.db)
+
+Number of ports:                        17541
+Number of nets:                         11418
+Number of cells:                         7800
+Number of combinational cells:           5237
+Number of sequential cells:              1926
+Number of macros/black boxes:              16
+Number of buf/inv:                        979
+Number of references:                       2
+
+Combinational area:              84112.930140
+Buf/Inv area:                     8455.669982
+Noncombinational area:          134509.190228
+Macro/Black Box area:              100.320000
+Net Interconnect area:            7137.498558
+
+Total cell area:                218722.440368
+Total area:                     225859.938925
+
+Information: This design contains black box (unknown) components. (RPT-8)
+1

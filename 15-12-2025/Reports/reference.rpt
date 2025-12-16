@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : reference
+Design : vsdcaravel
+Version: T-2022.03-SP5
+Date   : Sun Dec 14 13:56:06 2025
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+caravel_core                  19411.510324       1  19411.510324  b, h, n, u
+caravel_logo                      0.000000       1      0.000000  b, d
+caravel_motto                     0.000000       1      0.000000  b, d
+chip_io                           0.000000       1      0.000000  b
+copyright_block                   0.000000       1      0.000000  b, d
+open_source                       0.000000       1      0.000000  b, d
+user_id_textblock                 0.000000       1      0.000000  b, d
+-----------------------------------------------------------------------------
+Total 7 references                                  19411.510324
+1

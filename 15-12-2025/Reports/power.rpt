@@ -1,0 +1,136 @@
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : vsdcaravel
+Version: T-2022.03-SP5
+Date   : Tue Dec 16 16:30:33 2025
+****************************************
+
+
+Library(s) Used:
+
+    tsl18fs120_scl_ff (File: /home/Synopsys/pdk/SCL_PDK_3/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/4M1IL/liberty/lib_flow_ff/tsl18fs120_scl_ff.db)
+
+
+Operating Conditions: tsl18cio250_min   Library: tsl18cio250_min
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+vsdcaravel             280000            tsl18cio250_min
+caravel_core           280000            tsl18cio250_min
+mgmt_protect           4000              tsl18cio250_min
+user_project_wrapper   16000             tsl18cio250_min
+caravel_clocking       4000              tsl18cio250_min
+digital_pll            8000              tsl18cio250_min
+housekeeping           140000            tsl18cio250_min
+mprj_io_buffer         4000              tsl18cio250_min
+gpio_control_block_36  4000              tsl18cio250_min
+xres_buf               ForQA             tsl18cio250_min
+spare_logic_block_0    ForQA             tsl18cio250_min
+debug_regs             16000             tsl18cio250_min
+ring_osc2x13           4000              tsl18cio250_min
+digital_pll_controller 4000              tsl18cio250_min
+delay_stage_11         4000              tsl18cio250_min
+start_stage            4000              tsl18cio250_min
+spare_logic_block_3    ForQA             tsl18cio250_min
+spare_logic_block_2    ForQA             tsl18cio250_min
+spare_logic_block_1    ForQA             tsl18cio250_min
+gpio_control_block_15  4000              tsl18cio250_min
+gpio_control_block_14  4000              tsl18cio250_min
+gpio_control_block_13  4000              tsl18cio250_min
+gpio_control_block_12  4000              tsl18cio250_min
+gpio_control_block_11  4000              tsl18cio250_min
+gpio_control_block_10  4000              tsl18cio250_min
+gpio_control_block_9   4000              tsl18cio250_min
+gpio_control_block_8   4000              tsl18cio250_min
+gpio_control_block_7   4000              tsl18cio250_min
+gpio_control_block_6   4000              tsl18cio250_min
+gpio_control_block_5   4000              tsl18cio250_min
+gpio_control_block_4   4000              tsl18cio250_min
+gpio_control_block_3   4000              tsl18cio250_min
+gpio_control_block_2   4000              tsl18cio250_min
+gpio_control_block_1   4000              tsl18cio250_min
+gpio_control_block_0   4000              tsl18cio250_min
+gpio_control_block_18  4000              tsl18cio250_min
+gpio_control_block_17  4000              tsl18cio250_min
+gpio_control_block_16  4000              tsl18cio250_min
+gpio_control_block_29  4000              tsl18cio250_min
+gpio_control_block_28  4000              tsl18cio250_min
+gpio_control_block_27  4000              tsl18cio250_min
+gpio_control_block_26  4000              tsl18cio250_min
+gpio_control_block_25  4000              tsl18cio250_min
+gpio_control_block_24  4000              tsl18cio250_min
+gpio_control_block_23  4000              tsl18cio250_min
+gpio_control_block_22  4000              tsl18cio250_min
+gpio_control_block_21  4000              tsl18cio250_min
+gpio_control_block_20  4000              tsl18cio250_min
+gpio_control_block_19  4000              tsl18cio250_min
+gpio_control_block_35  4000              tsl18cio250_min
+gpio_control_block_34  4000              tsl18cio250_min
+gpio_control_block_33  4000              tsl18cio250_min
+gpio_control_block_32  4000              tsl18cio250_min
+gpio_control_block_31  4000              tsl18cio250_min
+gpio_control_block_30  4000              tsl18cio250_min
+gpio_control_block_37  4000              tsl18cio250_min
+delay_stage_0          ForQA             tsl18cio250_min
+delay_stage_1          ForQA             tsl18cio250_min
+delay_stage_2          ForQA             tsl18cio250_min
+delay_stage_3          ForQA             tsl18cio250_min
+delay_stage_4          ForQA             tsl18cio250_min
+delay_stage_5          4000              tsl18cio250_min
+delay_stage_6          ForQA             tsl18cio250_min
+delay_stage_7          ForQA             tsl18cio250_min
+delay_stage_8          ForQA             tsl18cio250_min
+delay_stage_9          ForQA             tsl18cio250_min
+delay_stage_10         ForQA             tsl18cio250_min
+housekeeping_DW_decode_en_0
+                       4000              tsl18cio250_min
+housekeeping_DW_decode_en_1
+                       4000              tsl18cio250_min
+housekeeping_DW_decode_en_2
+                       4000              tsl18cio250_min
+housekeeping_DW01_inc_1
+                       4000              tsl18cio250_min
+digital_pll_controller_DP_OP_20_122_7403_0
+                       4000              tsl18cio250_min
+digital_pll_controller_DP_OP_19_123_3538_0
+                       4000              tsl18cio250_min
+
+
+Global Operating Voltage = 1.98 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+Attributes
+----------
+i - Including register clock pin internal power
+
+
+  Cell Internal Power  = 968.4452 uW   (24%)
+  Net Switching Power  =   3.0601 mW   (76%)
+                         ---------
+Total Dynamic Power    =   4.0285 mW  (100%)
+
+Cell Leakage Power     = 299.2604 nW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000           62.7200            0.0000  (   0.00%)
+clock_network      0.8682            1.8842        7.5156e+04            2.7525  (  95.74%)  i
+register       9.5740e-02        1.2990e-02        2.0386e+05            0.1089  (   3.79%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational  4.4592e-03        9.2093e-03        2.0179e+04        1.3689e-02  (   0.48%)
+--------------------------------------------------------------------------------------------------
+Total              0.9684 mW         1.9064 mW     2.9926e+05 pW         2.8752 mW
+1
