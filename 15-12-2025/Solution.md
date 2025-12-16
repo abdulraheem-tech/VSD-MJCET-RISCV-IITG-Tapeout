@@ -359,5 +359,14 @@ puts "INFO: ========================================"
 dc_shell -f ../synth.tcl | tee status.log
 gui_show
 ```
+<img width="1765" height="896" alt="loadingfiles" src="https://github.com/user-attachments/assets/985af94b-64c3-4803-8d0c-4a267a0b53e8" />
+<img width="1137" height="469" alt="synthesis completed" src="https://github.com/user-attachments/assets/d5256ac9-1a58-4e95-b37f-a4a48c0f1107" />
+<img width="1527" height="856" alt="vsdcaravel" src="https://github.com/user-attachments/assets/b5c72553-3524-4fcd-8296-89f15cc71d8d" />
+<img width="1310" height="803" alt="guichipcore" src="https://github.com/user-attachments/assets/4cbb2601-d99c-4f4a-bedf-6ad661d552ce" />
+
+This should update the caravel_snthesis.v file in ./synthesis/output folder, No Dummy_por
+
+
+
 
 
