@@ -1,3 +1,24 @@
+# RISC-V SoC Tapeout Program Documentation
+
+This repository contains documentation and relevant materials for the **RISC-V SoC Tapeout Program**, a collaborative initiative between IIT Gandhinagar, VLSI System Design (VSD), and other prominent organizations in the field of semiconductor design.
+
+Program Overview
+The RISC-V SoC Tapeout Program aims to provide hands-on experience to participants in designing, verifying, and testing RISC-V based System-on-Chip (SoC). This program is part of Phase 2 of the collaboration between IIT Gandhinagar and VSD.
+
+Repository Contents
+
+- Documentation related to the program
+- Design files and resources
+- Relevant tools and scripts
+
+## 🙏 **Acknowledgment**
+
+I am thankful to [**Kunal Ghosh**](https://github.com/kunalg123) and Team **[VLSI System Design (VSD)](https://vsdiat.vlsisystemdesign.com/)** for the opportunity to participate in the ongoing **RISC-V SoC Tapeout Program**.  
+
+I also acknowledge the support of **RISC-V International**, **India Semiconductor Mission (ISM)**, **VLSI Society of India (VSI)**, [**Efabless**](https://github.com/efabless) and IIT Gandhinagar for making this initiative possible. Their contributions and guidance have been instrumental in shaping this program.
+<div align="center">
+
+
 # 11-12-2025. 
 # Objective:
 RISC V Tape Out Program Thanks for VSD Kunal Gosh, Sameer bhai and IIT Gandhinagar started 11 am with 
@@ -46,3 +67,23 @@ POR Power On Resent Module usage analysis; done brain stroming come across 3 app
 # Objective:
 Started with new challenge brainstroming with document verifing with design again with task!!!till 2:00 pm
 Started working on Documnetation.
+elow feedback i got from designer (may be all of you are actually doing it already). So will wait
+
+Step A: Decide the single source of truth for pads in SCL180:
+1) Either keep a clean SCL180-only pad wrapper module, or
+2) Parameterize the pad wrapper and explicitly tie enables per SCL180 documentation.
+
+Step B: Patch mprj_io.v (or replace it) and re-run:
+1) VCS RTL sim
+2) DC_TOPO synth
+3) VCS GLS
+
+Step C: Add the required “PAD reasoning” doc showing:
+1) Reset pad is usable without POR gating
+2) Any required enables are safe to tie high / derived from stable supplies
+3) Why SKY130 needed POR but SCL180 does not (your requested justification section)
+Started debugging
+# 17-12-2025. 
+# Objective: 
+Restarted the debugging and then done changes in pads.v only scl180 used completely removed the sky130, updated the files
+
