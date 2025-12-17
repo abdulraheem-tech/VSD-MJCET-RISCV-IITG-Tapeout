@@ -13,7 +13,7 @@ Repository Contents
 
 ## 🙏 **Acknowledgment**
 
-I am thankful to [**Kunal Ghosh**](https://github.com/kunalg123) and Team **[VLSI System Design (VSD)](https://vsdiat.vlsisystemdesign.com/)** for the opportunity to participate in the ongoing **RISC-V SoC Tapeout Program**.  
+I am thankful to [**Kunal Ghosh**](https://github.com/kunalg123), Team **[VLSI System Design (VSD)](https://vsdiat.vlsisystemdesign.com/)**  and ***IIT Gandhinagar*** for the opportunity to participate in the ongoing **RISC-V SoC Tapeout Program**.  
 
 I also acknowledge the support of **RISC-V International**, **India Semiconductor Mission (ISM)**, **VLSI Society of India (VSI)**, [**Efabless**](https://github.com/efabless) and IIT Gandhinagar for making this initiative possible. Their contributions and guidance have been instrumental in shaping this program.
 <div align="left">
