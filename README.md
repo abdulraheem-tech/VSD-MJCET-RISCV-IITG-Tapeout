@@ -16,7 +16,7 @@ Repository Contents
 I am thankful to [**Kunal Ghosh**](https://github.com/kunalg123) and Team **[VLSI System Design (VSD)](https://vsdiat.vlsisystemdesign.com/)** for the opportunity to participate in the ongoing **RISC-V SoC Tapeout Program**.  
 
 I also acknowledge the support of **RISC-V International**, **India Semiconductor Mission (ISM)**, **VLSI Society of India (VSI)**, [**Efabless**](https://github.com/efabless) and IIT Gandhinagar for making this initiative possible. Their contributions and guidance have been instrumental in shaping this program.
-<div align="center">
+<div align="left">
 
 
 # 11-12-2025. 
@@ -67,7 +67,7 @@ POR Power On Resent Module usage analysis; done brain stroming come across 3 app
 # Objective:
 Started with new challenge brainstroming with document verifing with design again with task!!!till 2:00 pm
 Started working on Documnetation.
-elow feedback i got from designer (may be all of you are actually doing it already). So will wait
+below feedback i got from designer (may be all of you are actually doing it already). So will wait
 
 Step A: Decide the single source of truth for pads in SCL180:
 1) Either keep a clean SCL180-only pad wrapper module, or
