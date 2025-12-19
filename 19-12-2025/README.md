@@ -150,6 +150,7 @@ gui_show_man_page
 ```tcl
 get_ports
 ```
+<img width="1810" height="967" alt="getports" src="https://github.com/user-attachments/assets/95eeef11-7e4c-4166-8aad-468800dcbe92" />
 
 ```tcl
 place_pins -self
