@@ -256,7 +256,7 @@ create_placement_blockage \
 # synthesized into logic and optimized away.
 # Therefore, no macro placement is performed here.
 # ---------------------------------------------------------
-
+write_def vsdcaravel_floorpan.def
 # ---------------------------------------------------------
 # Reports
 # ---------------------------------------------------------
