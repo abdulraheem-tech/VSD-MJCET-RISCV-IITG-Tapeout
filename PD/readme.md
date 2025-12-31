@@ -3569,7 +3569,8 @@ place_opt
 
 ### Block 4: Clock Tree Synthesis
 
-<img width="1608" height="1023" alt="image" src="https://github.com/user-attachments/assets/2b718792-f310-4f9b-abc9-025ee38b9349" />
+<img width="1248" height="536" alt="image" src="https://github.com/user-attachments/assets/7a867763-9eb7-456d-94a6-e81e7752a17a" />
+
 
 
 ```tcl
@@ -3602,7 +3603,8 @@ Root (clock source)
 
 ### Block 5: Detailed Routing
 
-<img width="1610" height="1023" alt="image" src="https://github.com/user-attachments/assets/e75ff692-217f-48ee-a65b-20734de55335" />
+<img width="978" height="697" alt="image" src="https://github.com/user-attachments/assets/1844d2c4-3c1d-4a33-8add-4922bbcfb012" />
+
 
 <img width="1605" height="1023" alt="image" src="https://github.com/user-attachments/assets/fe8da82c-8814-4374-87a1-637a20078b06" />
 
